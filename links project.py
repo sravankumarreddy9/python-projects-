@@ -8,11 +8,11 @@ Created on Wed Dec 18 12:10:39 2019
 import webbrowser
 import tkinter as tk
 from tkinter import *
-Punch_in_page = 'https://www.facebook.com'
-Dictionary ='https://www.instagram.com'
-Inside_Amazon = 'https://www.linkedin.com'
-Mytimeoff_portal = 'https://www.twitter.com'
-Amazon_au = 'https://www.amazon.com'
+Facebook = 'https://www.facebook.com'
+Instagram ='https://www.instagram.com'
+Linkedin = 'https://www.linkedin.com'
+Twitter = 'https://www.twitter.com'
+Amazon = 'https://www.amazon.com'
 
 window = Tk()
 window.title('Website Links')
@@ -30,15 +30,15 @@ def OpenUrl5():
     webbrowser.open_new(Amazon_au)
     
 
-button1 = Button(window, text="Punch_in page", command=OpenUrl1, pady=10, fg = "blue", height=3, width =15)
+button1 = Button(window, text="Facebook", command=OpenUrl1, pady=10, fg = "blue", height=3, width =15)
 
-button2 = Button(window, text="Dictionary", command=OpenUrl2, pady=10, fg = "blue", height=3, width =15)
+button2 = Button(window, text="Instagram", command=OpenUrl2, pady=10, fg = "blue", height=3, width =15)
 
-button3 = Button(window, text="Inside Amazon", command=OpenUrl3, pady=10, fg = "blue", height=3, width =15)
+button3 = Button(window, text="Linkedin", command=OpenUrl3, pady=10, fg = "blue", height=3, width =15)
 
-button4 = Button(window, text="Mytimeoff portal", command=OpenUrl4, pady=10, fg = "blue", height=3, width =15)
+button4 = Button(window, text="Twitter", command=OpenUrl4, pady=10, fg = "blue", height=3, width =15)
 
-button5 = Button(window, text="Amazon au site", command=OpenUrl5, pady=10, fg = "blue", height=3, width =15)
+button5 = Button(window, text="Amazon", command=OpenUrl5, pady=10, fg = "blue", height=3, width =15)
 
 button1.grid( padx = 30, pady = 10, column=1, row =0)
 
